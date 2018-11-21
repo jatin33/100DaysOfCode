@@ -6,3 +6,6 @@ JS clock
 
 # Day 2
 CSS variables
+
+# Day 3
+Array Cardio
