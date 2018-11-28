@@ -7,7 +7,7 @@ JS clock
 # Day 2
 CSS variables
 
-Learning puclished on blog:https://technovice796222167.wordpress.com/2018/11/28/difference-between-queryselectorall-and-getelementsbyclassname-methods-used-for-javascript-dom-scripting/
+Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28/difference-between-queryselectorall-and-getelementsbyclassname-methods-used-for-javascript-dom-scripting/
 
 # Day 3
 Array Cardio
