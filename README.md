@@ -11,6 +11,8 @@ Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28
 
 # Day 3
 Array Cardio
+Methods covered
+- map(), filter(),reduce(),sort()
 
 # Day 4
 Flex Panel Gallery
