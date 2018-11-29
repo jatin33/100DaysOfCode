@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+    </ul>
+  </form>
+<script>
+const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+
+const cities = [];
+
+fetch(endpoint)
+  .then(response => response.json()).then(city => cities.push(...city));
+  
+  console.log(cities);
+
+
+var cityInput = document.querySelector('.search');
+var displayResults = document.querySelector('.suggestions');
+
+function findMatches(textToMatch,citiesData)
+{
+  return cities.filter(location => {
+    const re = new RegExp(textToMatch,'gi');
+    return location.city.match(re) || location.state.match(re);
+  });
+}
+
+function displayMatches(textToMatch,citiesData){
+  const matchedLocations = findMatches(textToMatch, citiesData);
+  
+
+  const updatedList = matchedLocations.map(matchedLocation => {
+    const re = new RegExp(textToMatch,'gi');
+    const cityName = matchedLocation.city.replace(re,`<span class='hl'>${textToMatch}</span>`);
+    const stateName = matchedLocation.state.replace(re,`<span class='hl'>${textToMatch}</span>`);
+    return `<li><span>
+                      ${cityName} , ${stateName}</span></li>`;
+  }).join('');//use join to convert array to string
+
+  displayResults.innerHTML = updatedList;
+
+  //console.log(updatedList);
+}
+
+cityInput.addEventListener('keyup', function(){
+  displayMatches(cityInput.value,cities);
+}); 
+
+cityInput.addEventListener('change',function(){
+  displayMatches(cityInput.value,cities);
+});
+
+// use replace method
+
+</script>
+  </body>
+</html>
