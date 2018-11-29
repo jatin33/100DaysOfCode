@@ -11,3 +11,19 @@ Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28
 
 # Day 3
 Array Cardio
+
+# Day 4
+Flex Panel Gallery
+
+Things learnt:
+- Flexbox
+- css Pseudo-elements
+- css Pseudo-classes
+
+# Day 5 
+Type Ahead
+
+Things Learnt:
+- RegExp()
+- match(),replace() methods of string class
+- join() method of Array class
