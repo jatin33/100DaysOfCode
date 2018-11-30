@@ -29,3 +29,13 @@ Things Learnt:
 - RegExp()
 - match(),replace() methods of string class
 - join() method of Array class
+
+# Day 6
+Array Cardio 2
+
+Things Learnt:
+- some(),every() returns boolean value after invoking testing function on each element until it returns true else returns false
+- find(),findIndex() returns element , index of element respectively  after passing some testing function
+- splice() method removes element/s from the array based on the index passed to it and number of elements to delete.
+
+Note splice() method mutates the original array
