@@ -6,11 +6,13 @@ JS clock
 
 # Day 2
 CSS variables
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/CSS+Variables/index-START.html
 
 Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28/difference-between-queryselectorall-and-getelementsbyclassname-methods-used-for-javascript-dom-scripting/
 
 # Day 3
 Array Cardio
+
 Methods covered
 - map(), filter(),reduce(),sort()
 
