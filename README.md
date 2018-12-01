@@ -28,6 +28,7 @@ Things learnt:
 
 # Day 5 
 Type Ahead
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Type+Ahead/index.html
 
 Things Learnt:
 - RegExp()
