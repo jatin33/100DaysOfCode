@@ -17,6 +17,10 @@ Methods covered
 # Day 4
 Flex Panel Gallery
 
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Flex+Panel+Gallery/index.html
+ 
+Flex panel hosted on Amazon S3
+
 Things learnt:
 - Flexbox
 - css Pseudo-elements
