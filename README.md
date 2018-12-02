@@ -3,7 +3,7 @@ Here I try to code for 100 days by creating projects in javascript
 
 # Day 1
 JS clock
-https://codepen.io/anon/pen/EOrMdB#anon-login
+
 
 # Day 2
 CSS variables
@@ -47,3 +47,8 @@ Things Learnt:
 - splice() method removes element/s from the array based on the index passed to it and number of elements to delete.
 
 Note splice() method mutates the original array
+
+# Day 7
+Fun with HTML5 Canvas
+https://codepen.io/anon/pen/EOrMdB#anon-login
+
