@@ -51,6 +51,8 @@ Note splice() method mutates the original array
 # Day 7
 Fun with HTML5 Canvas
 https://codepen.io/anon/pen/EOrMdB#anon-login
+
+Mouse events learnt
 - onmouseover/onmouseout - When the mouse passes over an element
 - onmousedown/onmouseup - When pressing/releasing a mouse button
 - onmousedown - When mouse is clicked: Alert which element
