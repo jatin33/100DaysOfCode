@@ -51,7 +51,6 @@ Note splice() method mutates the original array
 
 # Day 7
 Fun with HTML5 Canvas
-https://codepen.io/anon/pen/EOrMdB#anon-login
 
 Mouse events learnt
 - onmouseover/onmouseout - When the mouse passes over an element
@@ -65,3 +64,6 @@ useover an image map
 Questions that came to my mind:
 Difference between screenX|Y, clientX|Y and pageX|Y.
 https://stackoverflow.com/questions/6073505/what-is-the-difference-between-screenx-y-clientx-y-and-pagex-y
+
+Difference between var, const and let
+https://medium.freecodecamp.org/javascripts-var-let-and-const-variables-explained-with-a-story-2038e3c6b2f9
