@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS + CSS Clock</title>
+</head>
+<body>
+
+
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+    </div>
+
+
+  <style>
+    html {
+      background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+      background-size: cover;
+      font-family: 'helvetica neue';
+      text-align: center;
+      font-size: 10px;
+    }
+
+    body {
+      margin: 0;
+      font-size: 2rem;
+      display: flex;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+    }
+
+    .clock {
+      width: 30rem;
+      height: 30rem;
+      border: 20px solid white;
+      border-radius: 50%;
+      margin: 50px auto;
+      position: relative;
+      padding: 2rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px); 
+      /* account for the height of the clock hands */
+    }
+
+    .hand {
+      width: 50%;
+      height: 6px;
+      background: black;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transition:all 0.05s;
+      transform: rotate(90deg);
+      transition-timing-function: ease-in;
+    }
+
+  </style>
+
+  <script>
+      var hourRef = document.querySelector('.hour-hand');
+      var minRef = document.querySelector('.min-hand');
+      var secRef = document.querySelector('.second-hand');
+
+      //var minDeg = 90;
+
+      setInterval(function(){
+        var now = new Date();
+
+        var sec = now.getSeconds();
+        //console.log(sec);
+        var secDeg = ((sec/60)*360) + 90;
+        secRef.style.background = 'red';
+        secRef.style.height = '1%'
+        secRef.style.borderRadius = '80%';
+        secRef.style.transform = `rotate(${secDeg}deg)`;
+
+        var hour = now.getHours();
+
+        var hrDeg = ((hour/12)*360) + 90;
+        hourRef.style.borderRadius = '40%';
+        //var hourRotDeg = 1/120;
+        hourRef.style.height = '3%';
+        hourRef.style.background = 'green';
+        hourRef.style.transform = `rotate(${hrDeg}deg)`;
+
+        var min = now.getMinutes();
+        console.log(min);
+        //var minRotDeg = 0.1;
+        var minDeg = ((min/60)*360) + 90;
+        //minDeg = minDeg + minRotDeg;
+        //console.log(minDeg);
+        minRef.style.borderRadius = '50%';
+        minRef.style.transform = `rotate(${minDeg}deg)`;
+
+      },1000);
+
+      //problems with current design 
+      // 1. minute hand flickers i.e. quickly moves to next point
+      // 2. hour hand , minute hand overlap(done)
+      // 3. reduce the size of hour hand
+  </script>
+</body>
+</html>
