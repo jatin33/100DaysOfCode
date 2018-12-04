@@ -62,3 +62,6 @@ Mouse events learnt
 - onmouseover/onmouseout - When moving the mouse over/out of an image
 useover an image map
 
+Questions that came to my mind:
+Difference between screenX|Y, clientX|Y and pageX|Y.
+https://stackoverflow.com/questions/6073505/what-is-the-difference-between-screenx-y-clientx-y-and-pagex-y
