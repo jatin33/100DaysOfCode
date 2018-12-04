@@ -3,6 +3,7 @@ Here I try to code for 100 days by creating projects in javascript
 
 # Day 1
 JS clock
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/JS+and+CSS+Clock/index-START.html
 
 
 # Day 2
