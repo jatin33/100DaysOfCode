@@ -7,6 +7,28 @@
 <body>
 <canvas id="draw" width="800" height="800"></canvas>
 <script>
+
+	const canvas = document.getElementById('draw');
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+
+	let lastX=0,lastY = 0;
+
+
+
+ function draw(evt){
+ 	console.log('hell');
+ 	const ctx = canvas.getContext('2d');
+	ctx.moveTo(lastX,lastY);
+ 	ctx.lineTo(evt.clientX,evt.clientY);
+
+ 	lastX = evt.clientX 
+ 	lastY = evt.clientY;
+  	ctx.stroke();
+ }
+
+canvas.addEventListener('mousemove',draw);
+
 </script>
 
 <style>
