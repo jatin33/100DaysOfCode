@@ -60,6 +60,7 @@ Mouse events learnt
 - onmousemove/onmouseout - When moving the mouse pointer over/out of an image
 - onmouseover/onmouseout - When moving the mouse over/out of an image
 useover an image map
+- HSL function in CSS : https://www.w3schools.com/colors/colors_hsl.asp
 
 Questions that came to my mind:
 Difference between screenX|Y, clientX|Y and pageX|Y.
