@@ -28,21 +28,24 @@
     ];
 
     // const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benenson, Peter', 'Ben-Gurion, David', 'Benjamin, Walter', 'Benn, Tony', 'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric', 'Bernhard, Sandra', 'Berra, Yogi', 'Berry, Halle', 'Berry, Wendell', 'Bethea, Erin', 'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve', 'Billings, Josh', 'Biondo, Frank', 'Birrell, Augustine', 'Black, Elk', 'Blair, Robert', 'Blair, Tony', 'Blake, William'];
-
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
-    const inventorIn1500s = inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600);
-    console.log(inventorIn1500s);
+    const foo = inventor => (inventor.year >= 1500 && inventor.year < 1600);
+
+    console.log(foo(inventors[0]));
+    // const inventorIn1500s = inventors.filter(foo);
+    // console.log(inventorIn1500s);
 
     // Array.prototype.map()
     // 2. Give us an array of the inventors' first and last names
-    const inventorFirstLastName = inventors.map(
-      inventor => {
-        var firstLastName = {};
-        firstLastName['firstName'] = inventor.first;
-        firstLastName['lastName'] = inventor.last;
-        return firstLastName;
-      }); 
+    const inventorFirstLastName = inventors.
+    map(
+      inventor =>( {
+
+         firstName: inventor.first,
+          lastName: inventor.last
+        }
+      )); 
     console.log(inventorFirstLastName);
 
     // Array.prototype.sort()
@@ -55,15 +58,15 @@
       else{
         return -1;
       }
+      //prefer ternary bcoz only single condiion being checked
     });
     console.table(inventorsOrderByBirthdate);
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
-    var initialAge = 0;
-    const totalAgeInventors = inventors.reduce(function(acc,curr){
-      return acc + (curr.passed - curr.year);
-    },initialAge);
+    //variable hoisting
+    const totalAgeInventors = inventors.reduce((acc,curr) => acc + (curr.passed - curr.year)
+    , 0);
     console.log('years all inventors lived ' + totalAgeInventors);
 
     // 5. Sort the inventors by years lived
@@ -123,6 +126,57 @@
 console.table(vehicleCount);
 // errors made while writing code
 // in Q.8 forgot to give initial value as empty object to reduce function
+
+// read arrow function by achar
+// to implement map using reduce
+// function passing and higher order function
+
+function filter(array,tester)
+{
+  // array.filter(tester)
+  array.reduce((acc,val)=>{
+    tester(val) && acc.push(val);
+    return acc;
+  },[]);
+}
+
+function map(array, mapper) {
+  
+  return array.reduce((acc,val)=>{    
+     acc.push(mapper(val));
+     return acc;
+  },[]);
+
+}
+
+
+function every(array, tester) {
+  // array.every(tester)
+  return reduce(array, (acc,val) =>{
+    return acc && tester(val);
+  },true);
+}
+
+// acc true || tester true
+// loop invariant 1===1
+
+function reduce(array, reducer, inititalValue) {
+  let res = inititalValue;
+  for(let i = 0; i < array.length;i++) {
+    res = reducer(res,array[i],i,array);
+  }
+  return res;
+}
+
+function areAllPropsTrue(obj) {
+  // return true if all own properties of the object are true
+}
+
+let obj = {
+  a:true,
+  b:false;
+};
+
   </script>
 </body>
 </html>
