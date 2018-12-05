@@ -52,6 +52,9 @@ Note splice() method mutates the original array
 # Day 7
 Fun with HTML5 Canvas
 
+Line properties learnt
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors#Line_styles
+
 Mouse events learnt
 - onmouseover/onmouseout - When the mouse passes over an element
 - onmousedown/onmouseup - When pressing/releasing a mouse button
@@ -70,3 +73,8 @@ Difference between var, const and let
 https://medium.freecodecamp.org/javascripts-var-let-and-const-variables-explained-with-a-story-2038e3c6b2f9
 
 What is HSL function in CSS : https://www.w3schools.com/colors/colors_hsl.asp
+
+beginPath() method of Canvas element : https://www.w3schools.com/tags/canvas_beginpath.asp
+
+
+
