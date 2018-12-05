@@ -11,23 +11,64 @@
 	const canvas = document.getElementById('draw');
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
+	const ctx = canvas.getContext('2d');
+	ctx.strokeStyle = '#BADA55';
+	ctx.lineCap = 'round';
+	ctx.lineJoin = 'round';
+	ctx.setLineDash([30,40]);
+	let lastX = 0,lastY = 0;
 
-	let lastX=0,lastY = 0;
+	let width = 60;
+	ctx.lineWidth = width;
+	let lineHue = 0;
+	let isDrawing = false;
+	let direction = true; // keeps track of width of line(left to right or up to down vice versa)
 
-
+//prettier code formatter extension sublime
 
  function draw(evt){
- 	console.log('hell');
- 	const ctx = canvas.getContext('2d');
-	ctx.moveTo(lastX,lastY);
+ 	//console.log('hell');
+ 	console.log(evt);
+ 	if(!isDrawing) return;
+ 	ctx.strokeStyle = `hsl(${lineHue},100%,70%)`;//100% saturation gives pure color and 50% light gives pure color
+ 	ctx.beginPath(); // The beginPath() method begins a path, or resets the current path. so properties of older path are replaced by new path
+
+ 	ctx.moveTo(lastX,lastY);
  	ctx.lineTo(evt.clientX,evt.clientY);
 
- 	lastX = evt.clientX 
- 	lastY = evt.clientY;
+ 	[lastX,lastY] = [evt.clientX,evt.clientY]; 
   	ctx.stroke();
+
+  	lineHue = ++lineHue % 360;
+  	console.log('lineHue: '+lineHue);
+
+  	direction = (ctx.lineWidth >= 60 || ctx.lineWidth <= 1) ? (!direction) : direction;
+  	console.log('direction: '+direction);
+
+  	if(direction){
+  		ctx.lineWidth++;
+  	}
+  	else {
+  		ctx.lineWidth--;
+  	}
+
+
  }
 
 canvas.addEventListener('mousemove',draw);
+
+canvas.addEventListener('mousedown', (evt) =>{
+	isDrawing = true; 
+	[lastX,lastY] = [evt.clientX,evt.clientY];
+});
+
+canvas.addEventListener('mouseup', () =>{
+	isDrawing = false;
+});
+
+canvas.addEventListener('mouseout',() =>{
+	isDrawing = false;
+});
 
 </script>
 
