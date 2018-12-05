@@ -60,7 +60,7 @@ Mouse events learnt
 - onmousemove/onmouseout - When moving the mouse pointer over/out of an image
 - onmouseover/onmouseout - When moving the mouse over/out of an image
 useover an image map
-- HSL function in CSS : https://www.w3schools.com/colors/colors_hsl.asp
+
 
 Questions that came to my mind:
 Difference between screenX|Y, clientX|Y and pageX|Y.
@@ -68,3 +68,5 @@ https://stackoverflow.com/questions/6073505/what-is-the-difference-between-scree
 
 Difference between var, const and let
 https://medium.freecodecamp.org/javascripts-var-let-and-const-variables-explained-with-a-story-2038e3c6b2f9
+
+What is HSL function in CSS : https://www.w3schools.com/colors/colors_hsl.asp
