@@ -95,3 +95,6 @@ https://stackoverflow.com/questions/49502744/how-to-see-results-of-console-profi
 https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution
 
 https://developers.google.com/web/tools/chrome-devtools/rendering-tools/
+
+How to improve website performance using Audits done by LightHouse
+https://developers.google.com/web/tools/chrome-devtools/speed/get-started
