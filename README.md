@@ -76,5 +76,22 @@ What is HSL function in CSS : https://www.w3schools.com/colors/colors_hsl.asp
 
 beginPath() method of Canvas element : https://www.w3schools.com/tags/canvas_beginpath.asp
 
+# Day 8
+Devtools Domination
+
+This day was all about getting familiar with dev tools like profiler,debugger and learning about console object of window.
+
+Resources collected while learning dev tools
+
+https://stackoverflow.com/questions/21876461/difference-between-console-log-and-console-debug/53355565#53355565
 
 
+Console object:
+https://developers.google.com/web/tools/chrome-devtools/console/console-reference?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#consoledebugobject_object
+
+Javascript Profiler:
+https://stackoverflow.com/questions/49502744/how-to-see-results-of-console-profile
+
+https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution
+
+https://developers.google.com/web/tools/chrome-devtools/rendering-tools/
