@@ -98,3 +98,9 @@ https://developers.google.com/web/tools/chrome-devtools/rendering-tools/
 
 How to improve website performance using Audits done by LightHouse
 https://developers.google.com/web/tools/chrome-devtools/speed/get-started
+
+# Day 9
+Hold Shift and Check Checkboxes
+
+Things learnt:
+CSS Combinators https://www.w3schools.com/css/css_combinators.asp
