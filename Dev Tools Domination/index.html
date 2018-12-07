@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular
+    console.log('hello world');
+
+    // Interpolated : Some variables are replaced at runtime after some calc are done
+    console.log('I am %s','Jatin');
+    const a = 1;
+    const b = 2;
+    console.log(`Sum is : ${a+b}`);
+
+    // Styled - used to create custom console message styles
+    console.log('%c hey brothers','color:blue;');
+    console.log('%c hi %c amigos','background:black;color:green;font-size:50px;','color:red');
+    
+    // warning!
+    console.warn('Oh no!!!!!!!!!!');
+
+    // Error :|
+    console.error('server phaat gaya');
+
+    // Info
+    console.info('sun rises in east!!');
+
+    // Testing
+    let num = 2;
+    console.assert(num % 2 == 0,'Number is even');
+    num = 3;
+    console.assert(num % 2 == 0,'Number not even');
+
+    // clearing
+    console.clear();
+
+    // Viewing DOM Elements
+    // console.log(p);
+    // console.dir(p);
+
+    // Grouping together
+    // why grouping needed?
+    //After writing so many logs, you might want to organize them. A small and useful tool for that is the console.group() & console.groupEnd(). Using console group, your console logs are grouped together, while each grouping creates another level in the hierarchy. Calling groupEnd reduces one
+    dogs.forEach(dog => {
+      console.groupCollapsed(`${dog.name}`);//starts a group
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`);
+    });
+
+
+
+    // counting console.count(label);
+    // If label is supplied, this function logs the number of times count() has been called with that particular label.
+    // If label is omitted, the function logs the number of times count() has been called at this particular line.
+    console.count('Wes');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Wes');
+
+    // timing
+    const arr = [1,2,3,4,5,6,7,8,9];
+
+    console.time('sum');
+    for(let i = 0; i < arr.length; i++)
+    {
+      ++arr[i];
+    }
+    console.timeEnd('sum');
+
+    console.time("answer time");
+    alert("Do a bunch of other stuff...");
+    console.timeEnd("answer time");
+
+  </script>
+</body>
+</html>
