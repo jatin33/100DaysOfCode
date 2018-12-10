@@ -103,5 +103,5 @@ https://developers.google.com/web/tools/chrome-devtools/speed/get-started
 Hold Shift and Check Checkboxes
 
 Things learnt:
-CSS Combinators https://www.w3schools.com/css/css_combinators.asp
-Javascript Truthy and Falsy values : https://stackoverflow.com/questions/35642809/understanding-javascript-truthy-and-falsy
+- CSS Combinators https://www.w3schools.com/css/css_combinators.asp
+- Javascript Truthy and Falsy values : https://stackoverflow.com/questions/35642809/understanding-javascript-truthy-and-falsy
