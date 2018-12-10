@@ -106,3 +106,10 @@ Things learnt:
 - CSS Combinators https://www.w3schools.com/css/css_combinators.asp
 - Javascript Truthy and Falsy values : https://stackoverflow.com/questions/35642809/understanding-javascript-truthy-and-falsy
 - Difference between null and undefined in javascript : https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript
+
+# Day 10 
+
+## Understanding github
+- How to write a better readme https://help.github.com/articles/basic-writing-and-formatting-syntax/
+- Understanding what is inside .git folder https://medium.freecodecamp.org/how-not-to-be-afraid-of-git-anymore-fe1da7415286
+- How git works under the hood? https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git
