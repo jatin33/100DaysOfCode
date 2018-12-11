@@ -51,6 +51,7 @@ Note splice() method mutates the original array
 
 # Day 7
 ## Fun with HTML5 Canvas
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Fun+with+HTML5+Canvas/index-START.html
 
 Line properties learnt
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors#Line_styles
