@@ -2,24 +2,24 @@
 Here I try to code for 100 days by creating projects in javascript
 
 # Day 1
-JS clock
+## JS clock
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/JS+and+CSS+Clock/index-START.html
 
 
 # Day 2
-CSS variables
+## CSS variables
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/CSS+Variables/index-START.html
 
 Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28/difference-between-queryselectorall-and-getelementsbyclassname-methods-used-for-javascript-dom-scripting/
 
 # Day 3
-Array Cardio
+## Array Cardio
 
 Methods covered
 - map(), filter(),reduce(),sort()
 
 # Day 4
-Flex Panel Gallery
+## Flex Panel Gallery
 
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Flex+Panel+Gallery/index.html
  
@@ -31,7 +31,7 @@ Things learnt:
 - css Pseudo-classes
 
 # Day 5 
-Type Ahead
+## Type Ahead
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Type+Ahead/index.html
 
 Things Learnt:
@@ -40,7 +40,7 @@ Things Learnt:
 - join() method of Array class
 
 # Day 6
-Array Cardio 2
+## Array Cardio 2
 
 Things Learnt:
 - some(),every() returns boolean value after invoking testing function on each element until it returns true else returns false
@@ -50,7 +50,8 @@ Things Learnt:
 Note splice() method mutates the original array
 
 # Day 7
-Fun with HTML5 Canvas
+## Fun with HTML5 Canvas
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Fun+with+HTML5+Canvas/index-START.html
 
 Line properties learnt
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors#Line_styles
@@ -77,7 +78,7 @@ What is HSL function in CSS : https://www.w3schools.com/colors/colors_hsl.asp
 beginPath() method of Canvas element : https://www.w3schools.com/tags/canvas_beginpath.asp
 
 # Day 8
-Devtools Domination
+## Devtools Domination
 
 This day was all about getting familiar with dev tools like profiler,debugger and learning about console object of window.
 
@@ -100,7 +101,8 @@ How to improve website performance using Audits done by LightHouse
 https://developers.google.com/web/tools/chrome-devtools/speed/get-started
 
 # Day 9
-Hold Shift and Check Checkboxes
+## Hold Shift and Check Checkboxes
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Hold+Shift+and+Check+Checkboxes/index.html
 
 Things learnt:
 - CSS Combinators https://www.w3schools.com/css/css_combinators.asp
