@@ -115,3 +115,8 @@ Things learnt:
 - How to write a better readme https://help.github.com/articles/basic-writing-and-formatting-syntax/
 - Understanding what is inside .git folder https://medium.freecodecamp.org/how-not-to-be-afraid-of-git-anymore-fe1da7415286
 - How git works under the hood? https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git
+
+# Day 11
+
+## Custom Video Player
+- What is the purpose of name attribute in html? https://stackoverflow.com/questions/26061651/what-is-the-purpose-of-the-html-name-attribute
