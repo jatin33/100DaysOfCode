@@ -2,6 +2,7 @@ const player = document.querySelector('.player');
 const video = player.querySelector('.viewer');
 const toggleButton = player.querySelector('.toggle');
 const volumeSlider = player.querySelector('#my_volume');
+const playbackRateSlider = player.querySelector('#my_playbackRate');
 //console.log(volumeSlider);
 
 
@@ -26,4 +27,9 @@ toggleButton.addEventListener('click',toggle);
 volumeSlider.addEventListener('change', _=>{
 	let vidVolume = volumeSlider.value;
 	video.volume = vidVolume;
+});
+
+playbackRateSlider.addEventListener('change',_=>{
+	let pbRate = playbackRateSlider.value;
+	video.playbackRate = pbRate;
 });
