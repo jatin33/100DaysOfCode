@@ -22,5 +22,5 @@ function toggle(){
 }
 
 video.addEventListener('click',toggle);
- 
+toggleButton.addEventListener('click',toggle); 
 
