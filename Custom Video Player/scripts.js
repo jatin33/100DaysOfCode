@@ -1,10 +1,9 @@
 const player = document.querySelector('.player');
-
 const video = player.querySelector('.viewer');
-
 const toggleButton = player.querySelector('.toggle');
+const volumeSlider = player.querySelector('#my_volume');
+//console.log(volumeSlider);
 
-//console.log(video);
 
 let isPlaying = false;
 
@@ -24,3 +23,7 @@ function toggle(){
 video.addEventListener('click',toggle);
 toggleButton.addEventListener('click',toggle); 
 
+volumeSlider.addEventListener('change', _=>{
+	let vidVolume = volumeSlider.value;
+	video.volume = vidVolume;
+});
