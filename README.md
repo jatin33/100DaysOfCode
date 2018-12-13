@@ -122,3 +122,9 @@ Things learnt:
 - What is the purpose of name attribute in html? https://stackoverflow.com/questions/26061651/what-is-the-purpose-of-the-html-name-attribute
 - Basics of working with Audio/Video https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs
 - To access important properties of working with Audio/Video Tags in HTML https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+- How to access total video duration and time buffered by video? https://stackoverflow.com/questions/6380956/current-duration-time-of-html5-video
+- Understanding flex-basis (in context of project: to work with progress bar) https://css-tricks.com/almanac/properties/f/flex-basis/
+- How to access data-* attributes in javascript? https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes#JavaScript_access
+- Understanding Live streaming https://medium.com/canal-tech/how-video-streaming-works-on-the-web-an-introduction-7919739f7e1
+- Understanding HTML5 Audio/Video events https://code.tutsplus.com/tutorials/html5-audio-and-video-what-you-must-know--net-15545 
+
