@@ -3,6 +3,8 @@ const video = player.querySelector('.viewer');
 const toggleButton = player.querySelector('.toggle');
 const volumeSlider = player.querySelector('#my_volume');
 const playbackRateSlider = player.querySelector('#my_playbackRate');
+const progressBar = player.querySelector('.progress__filled');
+
 //console.log(volumeSlider);
 
 
@@ -21,6 +23,15 @@ function toggle(){
 	}
 }
 
+
+	setInterval(()=>{
+	let progressState = (video.currentTime/video.duration)*100;
+	console.log(progressState);
+	progressBar.style.flexBasis = `${progressState}%`;
+	},250);
+
+
+
 video.addEventListener('click',toggle);
 toggleButton.addEventListener('click',toggle); 
 
@@ -29,7 +40,13 @@ volumeSlider.addEventListener('change', _=>{
 	video.volume = vidVolume;
 });
 
-playbackRateSlider.addEventListener('change',_=>{
+playbackRateSlider.addEventListener('change', _=>{
 	let pbRate = playbackRateSlider.value;
 	video.playbackRate = pbRate;
 });
+
+
+	
+
+	
+
