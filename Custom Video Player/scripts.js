@@ -4,6 +4,7 @@ const toggleButton = player.querySelector('.toggle');
 const volumeSlider = player.querySelector('#my_volume');
 const playbackRateSlider = player.querySelector('#my_playbackRate');
 const progressBar = player.querySelector('.progress__filled');
+const skipButtons = player.querySelectorAll('[data-skip]');
 
 //console.log(volumeSlider);
 
@@ -24,12 +25,16 @@ function toggle(){
 }
 
 
-	setInterval(()=>{
+setInterval(()=>{
 	let progressState = (video.currentTime/video.duration)*100;
-	console.log(progressState);
+	//console.log(progressState);
 	progressBar.style.flexBasis = `${progressState}%`;
-	},250);
+},250);
 
+function skipContent(){
+	console.log(this.dataset.skip);
+	video.currentTime += parseFloat(this.dataset.skip);
+}
 
 
 video.addEventListener('click',toggle);
@@ -46,7 +51,7 @@ playbackRateSlider.addEventListener('change', _=>{
 });
 
 
-	
 
+skipButtons.forEach((button)=>button.addEventListener('click',skipContent));
 	
 
