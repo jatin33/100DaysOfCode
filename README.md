@@ -126,5 +126,6 @@ Things learnt:
 - Understanding flex-basis (in context of project: to work with progress bar) https://css-tricks.com/almanac/properties/f/flex-basis/
 - How to access data-* attributes in javascript? https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes#JavaScript_access
 - Understanding Live streaming https://medium.com/canal-tech/how-video-streaming-works-on-the-web-an-introduction-7919739f7e1
-- Understanding HTML5 Audio/Video events https://code.tutsplus.com/tutorials/html5-audio-and-video-what-you-must-know--net-15545 
+- Understanding HTML5 Audio/Video events https://code.tutsplus.com/tutorials/html5-audio-and-video-what-you-must-know--net-15545
+- Understanding CSS positioning https://css-tricks.com/almanac/properties/p/position/
 
