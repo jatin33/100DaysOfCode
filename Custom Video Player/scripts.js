@@ -42,7 +42,16 @@ let time = video.currentTime;
 progressDiv.setAttribute('title','Time lapsed: '+ Math.round(time) +' secs');
 }
 
+function seekBar(evt)
+{	
+let currMousePos = evt.pageX - 127;
+//console.log(currMousePos);
+video.currentTime = currMousePos;
 
+let lapsePercent = (currMousePos/this.offsetWidth)*100;
+progressBar.style.flexBasis = `${Math.round(lapsePercent)}%`;
+
+}
 
 
 video.addEventListener('click',toggle);
@@ -64,3 +73,4 @@ skipButtons.forEach((button)=>button.addEventListener('click',skipContent));
 	
 progressDiv.addEventListener('mouseenter',createTooltip);//useful when hover elements
 
+progressDiv.addEventListener('click',seekBar);
