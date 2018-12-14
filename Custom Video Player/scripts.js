@@ -5,6 +5,7 @@ const volumeSlider = player.querySelector('#my_volume');
 const playbackRateSlider = player.querySelector('#my_playbackRate');
 const progressBar = player.querySelector('.progress__filled');
 const skipButtons = player.querySelectorAll('[data-skip]');
+const progressDiv = player.querySelector('.progress');
 
 //console.log(volumeSlider);
 
@@ -36,6 +37,13 @@ function skipContent(){
 	video.currentTime += parseFloat(this.dataset.skip);
 }
 
+function createTooltip(){
+let time = video.currentTime;
+progressDiv.setAttribute('title','Time lapsed: '+ Math.round(time) +' secs');
+}
+
+
+
 
 video.addEventListener('click',toggle);
 toggleButton.addEventListener('click',toggle); 
@@ -54,4 +62,5 @@ playbackRateSlider.addEventListener('change', _=>{
 
 skipButtons.forEach((button)=>button.addEventListener('click',skipContent));
 	
+progressDiv.addEventListener('mouseenter',createTooltip);//useful when hover elements
 

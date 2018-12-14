@@ -104,6 +104,11 @@ body {
   flex-basis: 10%;
 }
 
+.tootip {
+  text-decoration-color: white;
+  background-color: black;
+}
+
 /* unholy css to style input type="range" */
 
 input[type=range] {
