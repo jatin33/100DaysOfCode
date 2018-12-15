@@ -114,6 +114,8 @@ Things learnt:
 - How to write a better readme https://help.github.com/articles/basic-writing-and-formatting-syntax/
 - Understanding what is inside .git folder https://medium.freecodecamp.org/how-not-to-be-afraid-of-git-anymore-fe1da7415286
 - How git works under the hood? https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git
+- How to go back to older version of your file/project?(git checkout in detail)
+https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-repository
 
 # Day 11
 
