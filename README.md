@@ -130,4 +130,8 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/ind
 - Understanding HTML5 Audio/Video events https://code.tutsplus.com/tutorials/html5-audio-and-video-what-you-must-know--net-15545
 - Understanding CSS positioning https://css-tricks.com/almanac/properties/p/position/
 
+# Day 12
 
+## Key Detection
+
+- Understanding document, screen and window in Javascript context https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript
