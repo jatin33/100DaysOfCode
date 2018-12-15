@@ -117,6 +117,8 @@ Things learnt:
 - How to go back to older version of your file/project?(git checkout in detail)
 https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-repository
 
+- Different ways to go back to previous version of repository https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset
+
 # Day 11
 
 ## Custom Video Player
@@ -135,5 +137,7 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/ind
 # Day 12
 
 ## Key Detection
-
+```
+We're given an HTML document with...basically nothing. There's a script tag in the document header that loads a JavaScript file from Cornify.com which will inject an image of a unicorn (🦄🦄🦄!) into the DOM and a p element on the bottom of the page if we call cornify_add(). The goal of this challenge is to generate new unicorns every time the user succesfully enters a letter of 'secret code' that we will decide on.
+```
 - Understanding document, screen and window in Javascript context https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript
