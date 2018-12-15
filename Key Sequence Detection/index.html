@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+	const secret = 'jatininclouds';
+	const keysPressed = [];
+	window.addEventListener('keyup',(e)=>{
+		if(secret.includes(e.key)){
+			keysPressed.push(e.key);
+			cornify_add();
+		}
+		console.log(keysPressed);
+	});
+	//cornify_add();
+</script>
+</body>
+</html>
