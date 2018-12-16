@@ -124,6 +124,10 @@ https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-re
 ## Custom Video Player
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/index.html
 
+Issues faced while loading in browser via AWS S3
+- video player was not working well because of Error 403(unable to load css,jsand video file as they were private)
+- Suggestions from where I got Idea to solve the issue https://airbrake.io/blog/http-errors/403-forbidden-error
+
 - What is the purpose of name attribute in html? https://stackoverflow.com/questions/26061651/what-is-the-purpose-of-the-html-name-attribute
 - Basics of working with Audio/Video https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs
 - To access important properties of working with Audio/Video Tags in HTML https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
