@@ -153,4 +153,10 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/ind
 We're given an HTML document with...basically nothing. There's a script tag in the document header that loads a JavaScript file from Cornify.com which will inject an image of a unicorn (🦄🦄🦄!) into the DOM and a p element on the bottom of the page if we call cornify_add(). The goal of this challenge is to generate new unicorns every time the user succesfully enters a letter of 'secret code' that we will decide on.
 ```
 - Understanding document, screen and window in Javascript context https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript
+
+# Day 13
+
+## Slide in on scroll
+
 - Understanding debounce function https://davidwalsh.name/javascript-debounce-function
+- Basic Javascript functions https://davidwalsh.name/essential-javascript-functions
