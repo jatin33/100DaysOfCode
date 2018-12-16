@@ -88,8 +88,7 @@ https://stackoverflow.com/questions/21876461/difference-between-console-log-and-
 
 https://stackoverflow.com/questions/11954152/whats-the-difference-between-console-dir-and-console-log
 
-Console object:
-https://developers.google.com/web/tools/chrome-devtools/console/console-reference?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#consoledebugobject_object
+https://www.geeksforgeeks.org/ways-reduce-loading-time-website-set-1/
 
 Javascript Profiler:
 https://stackoverflow.com/questions/49502744/how-to-see-results-of-console-profile
