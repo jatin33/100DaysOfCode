@@ -20,6 +20,7 @@ Methods covered
 - Understanding **this** keyword in Javascript 
    - https://www.geeksforgeeks.org/this-in-javascript/
    - http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+- Understanding closures http://javascriptissexy.com/understand-javascript-closures-with-ease/
 
 # Day 4
 ## Flex Panel Gallery
