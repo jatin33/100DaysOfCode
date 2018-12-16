@@ -160,3 +160,6 @@ We're given an HTML document with...basically nothing. There's a script tag in t
 
 - Understanding debounce function https://davidwalsh.name/javascript-debounce-function
 - Basic Javascript functions https://davidwalsh.name/essential-javascript-functions
+- call(),bind(),apply() functions 
+   - https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
+   - http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
