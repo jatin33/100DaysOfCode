@@ -37,6 +37,9 @@ Things learnt:
 ## Type Ahead
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Type+Ahead/index.html
 
+- This mini project can be further improved by using Templating engines like Handlebar.js
+   - https://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/
+
 Things Learnt:
 - RegExp()
 - match(),replace() methods of string class
