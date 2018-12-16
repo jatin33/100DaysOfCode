@@ -17,7 +17,7 @@ Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28
 
 Methods covered
 - map(), filter(),reduce(),sort()
-- Understanding **this** keyword in Javascript
+- Understanding **this** keyword in Javascript https://www.geeksforgeeks.org/this-in-javascript/
 
 # Day 4
 ## Flex Panel Gallery
