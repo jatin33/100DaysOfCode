@@ -1,5 +1,7 @@
 # 100DaysOfCode
 Here I try to code for 100 days by creating projects in javascript
+- 30 to 40 days JS30
+- Learn core NodeJS https://www.codeproject.com/Articles/1264218/All-About-Core-NodeJS-Part-1
 
 # Day 1
 ## JS clock
