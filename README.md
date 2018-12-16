@@ -158,8 +158,13 @@ We're given an HTML document with...basically nothing. There's a script tag in t
 
 ## Slide in on scroll
 
-- Understanding debounce function https://davidwalsh.name/javascript-debounce-function
+- Understanding debounce function 
+   - https://davidwalsh.name/javascript-debounce-function
+   - https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf
+   - https://css-tricks.com/debouncing-throttling-explained-examples/
+   
 - Basic Javascript functions https://davidwalsh.name/essential-javascript-functions
 - call(),bind(),apply() functions 
    - https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
    - http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
+   
