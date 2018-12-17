@@ -157,7 +157,8 @@ We're given an HTML document with...basically nothing. There's a script tag in t
 # Day 13
 
 ## Slide in on scroll
-
+- Understanding JS timing functions
+   - understand (clear/set)Timeout functions and (clear/set)Interval fucntions https://www.w3schools.com/js/js_timing.asp
 - Understanding debounce function 
    - https://davidwalsh.name/javascript-debounce-function
    - https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf
