@@ -163,6 +163,9 @@ We're given an HTML document with...basically nothing. There's a script tag in t
    - https://davidwalsh.name/javascript-debounce-function
    - https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf
    - https://css-tricks.com/debouncing-throttling-explained-examples/
+
+- Determine_if_an_element_has_been_totally_scrolled   
+   - https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight#Determine_if_an_element_has_been_totally_scrolled
    
 - Basic Javascript functions https://davidwalsh.name/essential-javascript-functions
 - call(),bind(),apply() functions 
