@@ -127,6 +127,8 @@ https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-re
 
 - Different ways to go back to previous version of repository https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset
 
+- How to automate code/app deployment whenever new commit is made to git repository? https://hackernoon.com/continuous-deployment-with-aws-codedeploy-github-d1eb97550b82
+
 - When to use git bisect and how? https://stackoverflow.com/questions/4713088/how-to-use-git-bisect
 - Understanding git merge(Join two or more development histories together) https://git-scm.com/docs/git-merge
 
