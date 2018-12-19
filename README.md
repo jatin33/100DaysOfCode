@@ -1,5 +1,7 @@
 # 100DaysOfCode
 Here I try to code for 100 days by creating projects in javascript
+- 30 to 40 days JS30
+- Learn core NodeJS https://www.codeproject.com/Articles/1264218/All-About-Core-NodeJS-Part-1
 
 # Day 1
 ## JS clock
@@ -17,6 +19,10 @@ Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28
 
 Methods covered
 - map(), filter(),reduce(),sort()
+- Understanding **this** keyword in Javascript 
+   - https://www.geeksforgeeks.org/this-in-javascript/
+   - http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+- Understanding closures http://javascriptissexy.com/understand-javascript-closures-with-ease/
 
 # Day 4
 ## Flex Panel Gallery
@@ -33,6 +39,9 @@ Things learnt:
 # Day 5 
 ## Type Ahead
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Type+Ahead/index.html
+
+- This mini project can be further improved by using Templating engines like Handlebar.js
+   - https://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/
 
 Things Learnt:
 - RegExp()
@@ -88,8 +97,7 @@ https://stackoverflow.com/questions/21876461/difference-between-console-log-and-
 
 https://stackoverflow.com/questions/11954152/whats-the-difference-between-console-dir-and-console-log
 
-Console object:
-https://developers.google.com/web/tools/chrome-devtools/console/console-reference?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#consoledebugobject_object
+https://www.geeksforgeeks.org/ways-reduce-loading-time-website-set-1/
 
 Javascript Profiler:
 https://stackoverflow.com/questions/49502744/how-to-see-results-of-console-profile
@@ -114,11 +122,19 @@ Things learnt:
 - How to write a better readme https://help.github.com/articles/basic-writing-and-formatting-syntax/
 - Understanding what is inside .git folder https://medium.freecodecamp.org/how-not-to-be-afraid-of-git-anymore-fe1da7415286
 - How git works under the hood? https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git
+- How to go back to older version of your file/project?(git checkout in detail)
+https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-repository
+
+- Different ways to go back to previous version of repository https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset
 
 # Day 11
 
 ## Custom Video Player
 https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/index.html
+
+- Issues faced while loading in browser via AWS S3 
+  - video player was not working well because of Error 403(unable to load css,jsand video file as they were private)
+  - Suggestions from where I got Idea to solve the issue https://airbrake.io/blog/http-errors/403-forbidden-error
 
 - What is the purpose of name attribute in html? https://stackoverflow.com/questions/26061651/what-is-the-purpose-of-the-html-name-attribute
 - Basics of working with Audio/Video https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs
@@ -133,5 +149,26 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/ind
 # Day 12
 
 ## Key Detection
-
+```
+We're given an HTML document with...basically nothing. There's a script tag in the document header that loads a JavaScript file from Cornify.com which will inject an image of a unicorn (🦄🦄🦄!) into the DOM and a p element on the bottom of the page if we call cornify_add(). The goal of this challenge is to generate new unicorns every time the user succesfully enters a letter of 'secret code' that we will decide on.
+```
 - Understanding document, screen and window in Javascript context https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript
+
+# Day 13
+
+## Slide in on scroll
+- Understanding JS timing functions
+   - understand (clear/set)Timeout functions and (clear/set)Interval fucntions https://www.w3schools.com/js/js_timing.asp
+- Understanding debounce function 
+   - https://davidwalsh.name/javascript-debounce-function
+   - https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf
+   - https://css-tricks.com/debouncing-throttling-explained-examples/
+
+- Determine_if_an_element_has_been_totally_scrolled   
+   - https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight#Determine_if_an_element_has_been_totally_scrolled
+   
+- Basic Javascript functions https://davidwalsh.name/essential-javascript-functions
+- call(),bind(),apply() functions 
+   - https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
+   - http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
+   
