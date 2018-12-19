@@ -185,4 +185,6 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Slide+in+on+Scroll/inde
 ## JavaScript References VS Copying
 
 Mostly a reading exercise to understand how **pass-by-value** and **pass-by-reference** works in javascript 
-https://github.com/nitishdayal/JavaScript30/tree/master/exercises/14%20-%20JavaScript%20References%20VS%20Copying
+- https://github.com/nitishdayal/JavaScript30/tree/master/exercises/14%20-%20JavaScript%20References%20VS%20Copying
+
+- https://docstore.mik.ua/orelly/webprog/jscript/ch11_02.htm
