@@ -180,3 +180,9 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Slide+in+on+Scroll/inde
    - https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
    - http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
    
+# Day 14 
+
+## JavaScript References VS Copying
+
+Mostly a reading exercise to understand how **pass-by-value** and **pass-by-reference** works in javascript 
+https://github.com/nitishdayal/JavaScript30/tree/master/exercises/14%20-%20JavaScript%20References%20VS%20Copying
