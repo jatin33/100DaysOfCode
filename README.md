@@ -131,6 +131,7 @@ https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-re
 
 - When to use git bisect and how? https://stackoverflow.com/questions/4713088/how-to-use-git-bisect
 - Understanding git merge(Join two or more development histories together) https://git-scm.com/docs/git-merge
+- Fighting bad commits with git bisect https://www.complang.tuwien.ac.at/doc/git-doc/git-bisect-lk2009.html
 
 # Day 11
 
