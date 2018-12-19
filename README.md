@@ -127,6 +127,8 @@ https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-re
 
 - Different ways to go back to previous version of repository https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset
 
+- When to use git bisect and how? https://stackoverflow.com/questions/4713088/how-to-use-git-bisect
+
 # Day 11
 
 ## Custom Video Player
