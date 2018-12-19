@@ -189,3 +189,11 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 - https://github.com/nitishdayal/JavaScript30/tree/master/exercises/14%20-%20JavaScript%20References%20VS%20Copying
 
 - https://docstore.mik.ua/orelly/webprog/jscript/ch11_02.htm
+
+# Day 15
+
+## LocalStorage
+
+- Understanding Client-Side storage 
+   - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+   - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
