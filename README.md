@@ -200,4 +200,5 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
    - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
    - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+- Understand JSON.stringify() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Description
    
