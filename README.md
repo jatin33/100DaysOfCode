@@ -197,6 +197,7 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 ## LocalStorage
 - Understand event bubbling, capturing 
    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture
+- https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag
 - Understanding Client-Side storage 
    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
    - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
