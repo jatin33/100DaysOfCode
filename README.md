@@ -120,6 +120,7 @@ Things learnt:
 
 ## Understanding github
 - How to write a better readme https://help.github.com/articles/basic-writing-and-formatting-syntax/
+- Visual reference to git http://marklodato.github.io/visual-git-guide/index-en.html#checkout
 - Understanding what is inside .git folder https://medium.freecodecamp.org/how-not-to-be-afraid-of-git-anymore-fe1da7415286
 - How git works under the hood? https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git
 - How to go back to older version of your file/project?(git checkout in detail)
@@ -198,3 +199,4 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
    - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
    - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+   
