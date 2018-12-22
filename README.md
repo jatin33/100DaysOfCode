@@ -37,6 +37,7 @@ Things learnt:
 - Flexbox
 - css Pseudo-elements
 - css Pseudo-classes
+- Flexbox vs CSS Grid as Layout techniques https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412
 
 # Day 5 
 ## Type Ahead
