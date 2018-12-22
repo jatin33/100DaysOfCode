@@ -34,7 +34,7 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Flex+Panel+Gallery/inde
 Flex panel hosted on Amazon S3
 
 Things learnt:
-- Flexbox
+- Learn Flexbox properties(https://flexboxfroggy.com/)
 - css Pseudo-elements
 - css Pseudo-classes
 - Flexbox vs CSS Grid as Layout techniques https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412
