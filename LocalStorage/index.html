@@ -23,6 +23,7 @@
       <input type="text" name="item" placeholder="Item Name" required>
       <input type="submit" value="+ Add Item">
     </form>
+    <button>Format All</button>
   </div>
 
 <script>
@@ -30,15 +31,20 @@
   const itemsList = document.querySelector('.plates');
   const item = document.querySelector('[name="item"]');
   const items = JSON.parse(localStorage.getItem('dishes')) || [];
+  const clearAll = document.querySelector('button');
 
   addItems.addEventListener('submit',addItem);
+  itemsList.addEventListener('click',toggleDone);
+  clearAll.addEventListener('click',()=>{
+    localStorage.clear();
+  });
 
   function addItem(e){
     e.preventDefault();
     itemName = {text:item.value,
       striked:false};
     items.push(itemName);
-    console.log(items);
+    //console.log(items);
     populateList(items, itemsList); 
     localStorage.setItem('dishes',JSON.stringify(items));
     e.target.reset();
@@ -49,13 +55,22 @@
 
     itemsList.innerHTML = items.map((item,i)=>{
       return `<li>
-      <input type="checkbox" data-index=${i} id="item${i}" ${item.done ? 'checked' : ''} />
+      <input type="checkbox" data-index=${i} id="item${i}" ${item.striked ? 'checked' : ''} />
       <label for="item${i}">${item.text}</label>
       </li>`;
     }).join('');
   }
 
   document.onload = populateList(items, itemsList);
+
+  function toggleDone(e){
+    if(!e.target.matches('input')) return;
+    const element = e.target;
+    const idx = element.dataset.index;
+    items[idx].striked = !items[idx].striked;
+    localStorage.setItem('dishes',JSON.stringify(items));
+  }
+
 </script>
 
 
