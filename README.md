@@ -2,6 +2,8 @@
 Here I try to code for 100 days by creating projects in javascript
 - 30 to 40 days JS30
 - Learn core NodeJS https://www.codeproject.com/Articles/1264218/All-About-Core-NodeJS-Part-1
+- To follow along with 100 days a great git tutorial https://www.learnenough.com/git-tutorial
+- To Learn about basic unix commands https://www.barbarianmeetscoding.com/wiki/unix-basics
 
 # Day 1
 ## JS clock
@@ -32,9 +34,10 @@ https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Flex+Panel+Gallery/inde
 Flex panel hosted on Amazon S3
 
 Things learnt:
-- Flexbox
+- Learn Flexbox properties(https://flexboxfroggy.com/)
 - css Pseudo-elements
 - css Pseudo-classes
+- Flexbox vs CSS Grid as Layout techniques https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412
 
 # Day 5 
 ## Type Ahead
@@ -120,12 +123,19 @@ Things learnt:
 
 ## Understanding github
 - How to write a better readme https://help.github.com/articles/basic-writing-and-formatting-syntax/
+- Visual reference to git http://marklodato.github.io/visual-git-guide/index-en.html#checkout
 - Understanding what is inside .git folder https://medium.freecodecamp.org/how-not-to-be-afraid-of-git-anymore-fe1da7415286
 - How git works under the hood? https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git
 - How to go back to older version of your file/project?(git checkout in detail)
 https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-repository
 
 - Different ways to go back to previous version of repository https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset
+
+- How to automate code/app deployment whenever new commit is made to git repository? https://hackernoon.com/continuous-deployment-with-aws-codedeploy-github-d1eb97550b82
+
+- When to use git bisect and how? https://stackoverflow.com/questions/4713088/how-to-use-git-bisect
+- Understanding git merge(Join two or more development histories together) https://git-scm.com/docs/git-merge
+- Fighting bad commits with git bisect https://www.complang.tuwien.ac.at/doc/git-doc/git-bisect-lk2009.html
 
 # Day 11
 
@@ -157,6 +167,9 @@ We're given an HTML document with...basically nothing. There's a script tag in t
 # Day 13
 
 ## Slide in on scroll
+
+https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Slide+in+on+Scroll/index.html
+
 - Understanding JS timing functions
    - understand (clear/set)Timeout functions and (clear/set)Interval fucntions https://www.w3schools.com/js/js_timing.asp
 - Understanding debounce function 
@@ -171,4 +184,25 @@ We're given an HTML document with...basically nothing. There's a script tag in t
 - call(),bind(),apply() functions 
    - https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
    - http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
+   
+# Day 14 
+
+## JavaScript References VS Copying
+
+Mostly a reading exercise to understand how **pass-by-value** and **pass-by-reference** works in javascript 
+- https://github.com/nitishdayal/JavaScript30/tree/master/exercises/14%20-%20JavaScript%20References%20VS%20Copying
+
+- https://docstore.mik.ua/orelly/webprog/jscript/ch11_02.htm
+
+# Day 15
+
+## LocalStorage
+- Understand event bubbling, capturing 
+   - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture
+- https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag
+- Understanding Client-Side storage 
+   - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+   - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+   - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+- Understand JSON.stringify() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Description
    
