@@ -129,6 +129,8 @@ Things learnt:
 - How to go back to older version of your file/project?(git checkout in detail)
 https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-repository
 
+- [see-diff-between-current-state-and-last-commit](https://stackoverflow.com/questions/17244471/see-diff-between-current-state-and-last-commit)
+
 - Different ways to go back to previous version of repository https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset
 
 - How to automate code/app deployment whenever new commit is made to git repository? https://hackernoon.com/continuous-deployment-with-aws-codedeploy-github-d1eb97550b82
