@@ -198,7 +198,7 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 
 # Day 15
 
-## LocalStorage
+## [LocalStorage](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/LocalStorage/index.html)
 - Understand event bubbling, capturing 
    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture
 - https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag
