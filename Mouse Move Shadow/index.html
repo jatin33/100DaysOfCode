@@ -29,12 +29,44 @@
   }
 
   h1 {
-    text-shadow: 10px 10px 0 rgba(0,0,0,1);
+    text-shadow: 35px -35px 0 rgba(0,0,0,1);
     font-size: 100px;
   }
   </style>
 
 <script>
+  const hero = document.querySelector('.hero');
+  const text = document.querySelector('h1');
+
+  function calculatePositionforShadow(e){
+    const width = hero.offsetWidth;
+    const height = hero.offsetHeight;
+    const stretch = 600;
+
+    let x = e.offsetX;
+    let y = e.offsetY;
+
+    // console.group('Position');
+    // console.log('x= '+x);
+    // console.log('y= '+y);
+    // console.groupEnd();
+    
+    // this block needed because if mouse moves from h1 to div vice-versa then its offset origin element must be updated
+    if(this !== e.target){
+      x += e.target.offsetLeft;
+      y += e.target.offsetHeight;
+    }
+
+    let xStretch = Math.round((x/width)*stretch - (stretch/2));
+    let yStretch = Math.round((y/height)*stretch - (stretch/2));
+
+    text.style.textShadow = `
+    ${xStretch}px ${yStretch}px 0 rgba(255,0,255,0.4),
+    ${xStretch}px ${-yStretch}px 0 rgba(0,255,255,0.4),
+    ${-xStretch}px ${yStretch}px 0 rgba(0,0,255,0.4),
+    ${-xStretch}px ${-yStretch}px 0 rgba(0,255,0,0.4)`;
+  }
+  hero.addEventListener('mousemove',calculatePositionforShadow);
 </script>
 </body>
 </html>
