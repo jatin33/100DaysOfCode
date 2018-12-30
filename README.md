@@ -80,8 +80,6 @@ useover an image map
 
 
 Questions that came to my mind:
-Dimensions of CSS in detail:
-https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively
 
 Difference between screenX|Y, clientX|Y and pageX|Y.
 https://stackoverflow.com/questions/6073505/what-is-the-difference-between-screenx-y-clientx-y-and-pagex-y
@@ -211,4 +209,11 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
    - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
    - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 - Understand JSON.stringify() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Description
-   
+
+# Day 16
+
+## Mouse Move Shadow
+
+- [What is text-shadow property?](https://css-tricks.com/almanac/properties/t/text-shadow/)
+- [Understanding offset of element](https://www.w3schools.com/jsref/event_offsetx.asp)
+- [Dimensions of CSS in detail](https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
