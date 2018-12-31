@@ -58,7 +58,14 @@ function removeArticles(bandName){
  return bandName.replace(articles,'').trim();
 } 
 
-console.log(removePrefix(bands[4]));
+bands.sort((a,b)=>{
+  return removeArticles(a) > removeArticles(b) ? 3 : -3;
+});
+
+
+titleList.innerHTML = bands.map((band)=>{
+return `<li>${band}</li>`});
+
 </script>
 
 </body>
