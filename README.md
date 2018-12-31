@@ -217,3 +217,9 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 - [What is text-shadow property?](https://css-tricks.com/almanac/properties/t/text-shadow/)
 - [Understanding offset of element](https://www.w3schools.com/jsref/event_offsetx.asp)
 - [Dimensions of CSS in detail](https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
+
+# Day 17
+
+## Sort Without Articles
+
+- [Difference between [] and () in Regular expressions](https://stackoverflow.com/questions/3789417/whats-the-difference-between-and-in-regular-expression-patterns)
