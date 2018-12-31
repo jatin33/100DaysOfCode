@@ -51,10 +51,11 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
 const titleList = document.querySelector('#bands');
 
 
-const notArticles = new RegExp(/(a |an |the )/i);
+const articles = new RegExp(/(a |an |the )/i);
  
-function removePrefix(bandName){
- return bandName.replace(notArticles,'').trim();
+ // removes articles from given title
+function removeArticles(bandName){
+ return bandName.replace(articles,'').trim();
 } 
 
 console.log(removePrefix(bands[4]));
