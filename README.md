@@ -7,13 +7,11 @@ Here I try to code for 100 days by creating projects in javascript
 - [Book for Javascript Beginner](http://eloquentjavascript.net/index.html)
 
 # Day 1
-## JS clock
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/JS+and+CSS+Clock/index-START.html
+## [JS clock](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/JS+and+CSS+Clock/index-START.html)
 
 
 # Day 2
-## CSS variables
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/CSS+Variables/index-START.html
+## [CSS variables](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/CSS+Variables/index-START.html)
 
 Learning published on blog: https://technovice796222167.wordpress.com/2018/11/28/difference-between-queryselectorall-and-getelementsbyclassname-methods-used-for-javascript-dom-scripting/
 
@@ -28,9 +26,7 @@ Methods covered
 - Understanding closures http://javascriptissexy.com/understand-javascript-closures-with-ease/
 
 # Day 4
-## Flex Panel Gallery
-
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Flex+Panel+Gallery/index.html
+## [Flex Panel Gallery](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Flex+Panel+Gallery/index.html)
  
 Flex panel hosted on Amazon S3
 
@@ -41,8 +37,7 @@ Things learnt:
 - Flexbox vs CSS Grid as Layout techniques https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412
 
 # Day 5 
-## Type Ahead
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Type+Ahead/index.html
+## [Type Ahead](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Type+Ahead/index.html)
 
 - This mini project can be further improved by using Templating engines like Handlebar.js
    - https://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/
@@ -63,8 +58,7 @@ Things Learnt:
 Note splice() method mutates the original array
 
 # Day 7
-## Fun with HTML5 Canvas
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Fun+with+HTML5+Canvas/index-START.html
+## [Fun with HTML5 Canvas](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Fun+with+HTML5+Canvas/index-START.html)
 
 Line properties learnt
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors#Line_styles
@@ -113,8 +107,7 @@ How to improve website performance using Audits done by LightHouse
 https://developers.google.com/web/tools/chrome-devtools/speed/get-started
 
 # Day 9
-## Hold Shift and Check Checkboxes
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Hold+Shift+and+Check+Checkboxes/index.html
+## [Hold Shift and Check Checkboxes](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Hold+Shift+and+Check+Checkboxes/index.html)
 
 Things learnt:
 - CSS Combinators https://www.w3schools.com/css/css_combinators.asp
@@ -143,8 +136,7 @@ https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-re
 
 # Day 11
 
-## Custom Video Player
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/index.html
+## [Custom Video Player](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Custom+Video+Player/index.html)
 
 - Issues faced while loading in browser via AWS S3 
   - video player was not working well because of Error 403(unable to load css,jsand video file as they were private)
@@ -170,9 +162,7 @@ We're given an HTML document with...basically nothing. There's a script tag in t
 
 # Day 13
 
-## Slide in on scroll
-
-https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Slide+in+on+Scroll/index.html
+## [Slide in on scroll](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Slide+in+on+Scroll/index.html)
 
 - Understanding JS timing functions
    - understand (clear/set)Timeout functions and (clear/set)Interval fucntions https://www.w3schools.com/js/js_timing.asp
@@ -212,7 +202,7 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 
 # Day 16
 
-## Mouse Move Shadow
+## [Mouse Move Shadow](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Mouse+Move+Shadow/index.html)
 
 - [What is text-shadow property?](https://css-tricks.com/almanac/properties/t/text-shadow/)
 - [Understanding offset of element](https://www.w3schools.com/jsref/event_offsetx.asp)
