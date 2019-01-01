@@ -41,6 +41,8 @@ Things learnt:
 
 - This mini project can be further improved by using Templating engines like Handlebar.js
    - https://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/
+   - https://stackoverflow.com/questions/39304549/why-would-i-need-template-engines-like-jade-or-ejs-on-the-backend
+   - https://www.reddit.com/r/javascript/comments/55zuq6/should_i_use_a_template_engine_or_a_js_framework/
 
 Things Learnt:
 - RegExp()
