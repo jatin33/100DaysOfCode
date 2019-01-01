@@ -215,3 +215,7 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 ## [Sort Without Articles](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Sort+Without+Articles/index.html)
 
 - [Difference between [] and () in Regular expressions](https://stackoverflow.com/questions/3789417/whats-the-difference-between-and-in-regular-expression-patterns)
+
+# Day 18
+
+## [Adding time with reduce](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Adding+Up+Times+with+Reduce/index.html)
