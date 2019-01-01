@@ -183,11 +183,11 @@
   </ul>
 <script>
   const videoTimeList = document.querySelectorAll('li');
-  const hrMin = Array.from(videoTimeList).map((item)=>{
+   
+   const totalSecs = Array.from(videoTimeList).map((item)=>{
     let duration = item.dataset.time;
     return duration.split(':');
-  });
-  const totalSecs = hrMin.reduce((acc,curr)=>{
+  }).reduce((acc,curr)=>{
     return acc + parseInt(curr[1]) + parseInt(curr[0]) * 60;
   },0);
    
