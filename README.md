@@ -1,6 +1,6 @@
 # 100DaysOfCode
 Here I try to code for 100 days by creating projects in javascript
-- 30 to 40 days JS30
+- Participating in JS30 course by @wesbos
 - Learn core NodeJS https://www.codeproject.com/Articles/1264218/All-About-Core-NodeJS-Part-1
 - To follow along with 100 days a great git tutorial https://www.learnenough.com/git-tutorial
 - To Learn about basic unix commands https://www.barbarianmeetscoding.com/wiki/unix-basics
