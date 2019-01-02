@@ -65,6 +65,8 @@ Note splice() method mutates the original array
 Line properties learnt
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors#Line_styles
 
+- [difference between SVG and Canvas](https://medium.com/@benisinca/svg-vs-canvas-92938aff799a)
+
 Mouse events learnt
 - onmouseover/onmouseout - When the mouse passes over an element
 - onmousedown/onmouseup - When pressing/releasing a mouse button
