@@ -5,6 +5,7 @@ Here I try to code for 100 days by creating projects in javascript
 - To follow along with 100 days a great git tutorial https://www.learnenough.com/git-tutorial
 - To Learn about basic unix commands https://www.barbarianmeetscoding.com/wiki/unix-basics
 - [Book for Javascript Beginner](http://eloquentjavascript.net/index.html)
+- [visit again to learn git well](https://learngitbranching.js.org/ )
 
 # Day 1
 ## [JS clock](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/JS+and+CSS+Clock/index-START.html)
