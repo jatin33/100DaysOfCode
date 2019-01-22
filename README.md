@@ -2,6 +2,7 @@
 Here I try to code for 100 days by creating projects in javascript
 - Participating in JS30 course by @wesbos
 - Learn core NodeJS https://www.codeproject.com/Articles/1264218/All-About-Core-NodeJS-Part-1
+- https://codeburst.io/the-only-nodejs-introduction-youll-ever-need-d969a47ef219
 - To follow along with 100 days a great git tutorial https://www.learnenough.com/git-tutorial
 - To Learn about basic unix commands https://www.barbarianmeetscoding.com/wiki/unix-basics
 - [Book for Javascript Beginner](http://eloquentjavascript.net/index.html)
