@@ -1,0 +1,13 @@
+1.  ask perm from user webcam
+	a) how to check if browser supports for webcam streaming?
+		1) use navigator
+	b) how to ask perm for webcam access
+2. display feed from webcam to page
+	a) what is the data format of feed generated from webcam?
+		1) data generated in form of streams
+		2) video made up of frames
+		3) frames can be captured using images
+	b) Where is the data generated stored ?
+	c) how to access tha data stored?
+3. allow user to save picture that are displayed
+4. allow user to alter image using rgb slider
