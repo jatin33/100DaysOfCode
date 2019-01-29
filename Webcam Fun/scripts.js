@@ -37,4 +37,8 @@ const snap = document.querySelector('.snap');
 	getVideo();
     video.addEventListener('canplay',paintToCanvas)
 
+
+
+
+    
   
