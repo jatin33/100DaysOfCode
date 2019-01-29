@@ -1,0 +1,28 @@
+{
+  "name": "100daysofcode",
+  "version": "1.0.0",
+  "description": "Trying to code in JS for 100 days",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatin33/100DaysOfCode.git"
+  },
+  "keywords": [
+    "Javascript",
+    "beginner"
+  ],
+  "author": "Jatin Panjwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jatin33/100DaysOfCode/issues"
+  },
+  "homepage": "https://github.com/jatin33/100DaysOfCode#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}

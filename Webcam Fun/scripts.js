@@ -5,21 +5,36 @@ const strip = document.querySelector('.strip');
 const snap = document.querySelector('.snap');
 
 
-const streaming = false;
+	
 
 	// used to get video stream from webcam using promises
-	navigator.getUserMedia({video : true,audio : false}).
-	then((stream)=>{
+	
+	const getVideo = () => {
+	navigator.mediaDevices.getUserMedia({video : true,audio : false})
+	.then((stream)=>{
 		video.srcObject = stream;
 		video.play();
-	}).
-	catch((err)=>{
-		console.log(err);
+	})
+	.catch((err)=>{
+		console.log(`OH NO!!!${err}`);
 	});
+   };
 
+    const paintToCanvas = ()=>{
+   	// extract video height and width 
+   	// so canvas can adjust accordingly
+   	 const { height : videoHeight, width : videoWidth } = video;
 
+   	 canvas.width = videoWidth;
+   	 canvas.height = videoHeight;
 
+   	 
+   	 // to draw image on canvas
+   	 ctx.drawImage(video,0,0,videoWidth,videoHeight);
+   	 
+    };
 
-function takePhoto(){
+	getVideo();
+    video.addEventListener('canplay',paintToCanvas)
 
-}
+  
