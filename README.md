@@ -224,3 +224,7 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 # Day 18
 
 ## [Adding time with reduce](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/Adding+Up+Times+with+Reduce/index.html)
+
+# Day 19
+
+## Webcam fun
