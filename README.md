@@ -228,3 +228,6 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 # Day 19
 
 ## Webcam fun
+
+- [Understanding toDataURL method in detail](https://turbofuture.com/computers/HTML5-Tutorial-How-To-Use-Canvas-toDataURL)
+- [How to convert to canvas to image and vice-versa](https://davidwalsh.name/convert-canvas-image)
