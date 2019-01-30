@@ -1,13 +1,21 @@
 1.  ask perm from user webcam
 	a) how to check if browser supports for webcam streaming?
-		1) use navigator
-	b) how to ask perm for webcam access
-2. display feed from webcam to page
-	a) what is the data format of feed generated from webcam?
-		1) data generated in form of streams
-		2) video made up of frames
-		3) frames can be captured using images
-	b) Where is the data generated stored ?
-	c) how to access tha data stored?
+		1) use navigator.mediaDevices
+		.getUserMedia(constraints,success(),failure());
+		2) if success() callback gets called then browser supports else does not
+2. display feed from webcam to page(in video element adjusted to fit into canvas element)
+
+	b) what is the data format of feed generated from webcam?
+		1) data generated in form of streams( use stream object passed in success callback )
+
+	c) How to convert data generated from webcam into usable image format like png?
+		1) using imagedataURL = canvasInstance.toDataURL('image/png')
+
+	d) how to make that image downloadable ?
+		1) set the above obtained imagedataURL to href attribute of some anchor element(<a href = imagedataURL download='webcamsnap.png'/>)
+
+	e) how to access tha data generated in webcam?
+		1) we can use canvasInstance.getImageData() method to get pixel level details of the image drawn on canvas by using canvasInstance.drawImage() method
+
 3. allow user to save picture that are displayed
 4. allow user to alter image using rgb slider

@@ -13,6 +13,7 @@ const snap = document.querySelector('.snap');
 	navigator.mediaDevices.getUserMedia({video : true,audio : false})
 	.then((stream)=>{
 		video.srcObject = stream;
+		// console.log('inside success callback');
 		video.play();
 	})
 	.catch((err)=>{
@@ -40,5 +41,5 @@ const snap = document.querySelector('.snap');
 
 
 
-    
+
   
