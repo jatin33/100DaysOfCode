@@ -32,13 +32,22 @@ const snap = document.querySelector('.snap');
    	 
    	 // to draw image on canvas
    	 ctx.drawImage(video,0,0,videoWidth,videoHeight);
-   	 
     };
+
+
 
 	getVideo();
     video.addEventListener('canplay',paintToCanvas)
 
+    function takePhoto () {
+   	 paintToCanvas();
 
+   	 const imgElement = document.createElement('img');
+   	 imgElement.setAttribute('src', canvas.toDataURL('image/png'));
+   	 console.log(imgElement);
+   	 snap.play();	
+   	 strip.appendChild(imgElement);
+    }
 
 
 
