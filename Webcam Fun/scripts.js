@@ -24,14 +24,17 @@ const snap = document.querySelector('.snap');
     const paintToCanvas = ()=>{
    	// extract video height and width 
    	// so canvas can adjust accordingly
-   	 const { height : videoHeight, width : videoWidth } = video;
+   	 const { videoHeight : height, videoWidth : width } = video;
 
-   	 canvas.width = videoWidth;
-   	 canvas.height = videoHeight;
+   	 canvas.width = width;
+   	 canvas.height = height;
 
    	 
    	 // to draw image on canvas
-   	 ctx.drawImage(video,0,0,videoWidth,videoHeight);
+   	 setInterval(()=>{
+   	 	ctx.drawImage(video,0,0,width,height);
+   	 },16)
+   	 
     };
 
 
@@ -42,11 +45,14 @@ const snap = document.querySelector('.snap');
     function takePhoto () {
    	 paintToCanvas();
 
-   	 const imgElement = document.createElement('img');
-   	 imgElement.setAttribute('src', canvas.toDataURL('image/png'));
-   	 console.log(imgElement);
+   	 const link = document.createElement('a');
+   	 const data = canvas.toDataURL('image/jpeg');
+   	 link.setAttribute('href', data);
+   	 link.setAttribute('download', 'handsome');
+     link.innerHTML = `<img src="${data}" alt="Handsome Man" />`;
+     console.log(canvas.toDataURL('image/png'));
    	 snap.play();	
-   	 strip.appendChild(imgElement);
+   	 strip.appendChild(link);
     }
 
 
