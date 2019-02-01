@@ -33,7 +33,11 @@ const snap = document.querySelector('.snap');
    	 // to draw image on canvas
    	 setInterval(()=>{
    	 	ctx.drawImage(video,0,0,width,height);
-   	 },16)
+
+   	 	const pixels = ctx.getImageData(0,0,width,height);
+   	 	// console.log(pixels);
+   	 	// debugger;
+   	 },16);
    	 
     };
 
@@ -45,14 +49,18 @@ const snap = document.querySelector('.snap');
     function takePhoto () {
    	 paintToCanvas();
 
+   	 snap.play();	
    	 const link = document.createElement('a');
    	 const data = canvas.toDataURL('image/jpeg');
+   	 console.log(data);
    	 link.setAttribute('href', data);
    	 link.setAttribute('download', 'handsome');
      link.innerHTML = `<img src="${data}" alt="Handsome Man" />`;
      console.log(canvas.toDataURL('image/png'));
-   	 snap.play();	
+   	 
    	 strip.appendChild(link);
+
+
     }
 
 
