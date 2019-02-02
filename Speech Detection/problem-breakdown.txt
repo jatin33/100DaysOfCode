@@ -1,0 +1,9 @@
+a) How to enable speech recognition in Javascript?
+	1. Check if browser supports audio support
+	2. get sound from microphone
+	3. pipe the feed(data) from microphone to audio element
+	4. convert stream in audio to word
+
+	=========================
+
+	1. convert speech to text (is there an api already?)
