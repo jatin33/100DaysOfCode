@@ -18,4 +18,10 @@
 		1) we can use canvasInstance.getImageData() method to get pixel level details of the image drawn on canvas by using canvasInstance.drawImage() method
 
 3. allow user to save picture that are displayed
-4. allow user to alter image using rgb slider
+
+4. allow user to alter image using rgb slider(create filter for image)
+		a) how to manipulate image inorder to change its look?
+		-> manipulate pixel level data
+		-> use getImageData() method and get all the pixels in form of a huge array where each array entry represents value from 0-255 which is the range of rgba(red,green,blue,alpha)
+		-> each pixel color represented by 4 entries of array
+		(0 : 255, 1 : 84, 2 : 34, 3 : 55)(presents color of single pixel)
