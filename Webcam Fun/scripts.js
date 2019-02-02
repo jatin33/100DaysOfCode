@@ -37,7 +37,7 @@ const snap = document.querySelector('.snap');
    	 	let pixels = ctx.getImageData(0,0,width,height);
    	 	// console.log(pixels);
    	 	// pixels = redEffect(pixels);
-   	 	 ctx.putImageData(redEffect(pixels),0,0);
+   	 	 ctx.putImageData(rgbSplit(pixels),0,0);
    	 	// debugger;
    	 },160);
    	 
@@ -74,14 +74,14 @@ const snap = document.querySelector('.snap');
     }
 
     // filter that creates rgb split
-  	// function rgbSplit(pixels){
-  	//  	for(let i = 0; i < pixels.data.length; i++){
-   //  		pixels.data[i + 50] = pixels.data[i];
-   //  		pixels.data[i + 10] = pixels.data[i + 1];
-   //  		pixels.data[i + 20] = pixels.data[i + 2];
-   //  	}
-   //  	return pixels;	
-  	// }
+  	function rgbSplit(pixels){
+  	 	for(let i = 0; i < pixels.data.length; i += 4){
+    		pixels.data[i + 250] = pixels.data[i];
+    		pixels.data[i + 300] = pixels.data[i + 1];
+    		pixels.data[i + 400] = pixels.data[i + 2];
+    	}
+    	return pixels;	
+  	}
 
 
   	// function greenScreenEffect(pixels){
