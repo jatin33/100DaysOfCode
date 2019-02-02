@@ -5,5 +5,10 @@ a) How to enable speech recognition in Javascript?
 	4. convert stream in audio to word
 
 	=========================
-
 	1. convert speech to text (is there an api already?)
+		- SpeechRecognition() api
+	2. How to enable the api to recognise english language?
+
+	======================================
+	future extension voice-based chat app
+	1. listen to user convert it to text and send to other user
