@@ -25,3 +25,7 @@
 		-> use getImageData() method and get all the pixels in form of a huge array where each array entry represents value from 0-255 which is the range of rgba(red,green,blue,alpha)
 		-> each pixel color represented by 4 entries of array
 		(0 : 255, 1 : 84, 2 : 34, 3 : 55)(presents color of single pixel)
+
+	==========================
+	Future improvements
+	1) use ML to detect face and other objects in surroundings

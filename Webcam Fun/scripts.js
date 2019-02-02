@@ -37,7 +37,7 @@ const snap = document.querySelector('.snap');
    	 	let pixels = ctx.getImageData(0,0,width,height);
    	 	// console.log(pixels);
    	 	// pixels = redEffect(pixels);
-   	 	 ctx.putImageData(rgbSplit(pixels),0,0);
+   	 	 ctx.putImageData(redEffect(pixels),0,0);
    	 	// debugger;
    	 },160);
    	 
@@ -54,11 +54,11 @@ const snap = document.querySelector('.snap');
    	 snap.play();	
    	 const link = document.createElement('a');
    	 const data = canvas.toDataURL('image/jpeg');
-   	 console.log(data);
+   	 // console.log(data);
    	 link.setAttribute('href', data);
    	 link.setAttribute('download', 'handsome');
      link.innerHTML = `<img src="${data}" alt="Handsome Man" />`;
-     console.log(canvas.toDataURL('image/png'));
+     // console.log(canvas.toDataURL('image/png'));
    	 
    	 strip.appendChild(link);
 
@@ -75,15 +75,37 @@ const snap = document.querySelector('.snap');
 
     // filter that creates rgb split
   	function rgbSplit(pixels){
+
   	 	for(let i = 0; i < pixels.data.length; i += 4){
-    		pixels.data[i + 250] = pixels.data[i];
-    		pixels.data[i + 300] = pixels.data[i + 1];
-    		pixels.data[i + 400] = pixels.data[i + 2];
+    		pixels.data[i + 150] = pixels.data[i];
+    		pixels.data[i + 150] = pixels.data[i + 1];
+    		pixels.data[i + 100] = pixels.data[i + 2];
     	}
     	return pixels;	
   	}
 
 
-  	// function greenScreenEffect(pixels){
+  	function greenScreenEffect(pixels){
+  		const levels = {};
 
-  	// }
+  		document.querySelectorAll('.rgb input').forEach((input)=>{
+  			levels[input.name] = input.value;
+
+  		});
+  		// console.log(levels);
+
+  		for(let i = 0; i < pixels.data.length; i += 4){
+  			const red = pixels.data[i];
+  			const green = pixels.data[i + 1];
+  			const blue = pixels.data[i + 2];
+
+  			if(red >= levels.rmin && red <= levels.rmax
+  				&& green >= levels.gmin && green <= levels.gmax
+  				&& blue >= levels.bmin && blue <= levels.bmax){
+  				pixels.data[i + 3] = 0;
+  				// removes the alpha pixel(transparency)
+  			}
+  		}
+  		return pixels;
+
+  	}
