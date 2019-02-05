@@ -1,0 +1,5 @@
+1. How to find the rectangle surrounding the element that we just hovered upon?
+	- use getBoundingClientRect()
+	- what it does ? - it returns an object containing surrounding rectangle of an element(having props -> top,bottom,left,right,xCoord,yCoord)
+
+	- then higglight the hovered element
