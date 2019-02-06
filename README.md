@@ -239,3 +239,10 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 - SpeechRecognition API explored
 - To give audio effects use AudioContext(),
     audioSource = AudioContext.createMediaElementSource()
+
+# Day 21
+
+## Follow Along Highlighter
+
+- Learned about DOMRect(rectangle surrounding an element of the dom)
+- Learned about getBoundingClientRect() method
