@@ -2,14 +2,13 @@
   let voices = [];
   msg.text = document.querySelector('[name="text"]').value;  
   const voicesDropdown = document.querySelector('#voices');
-  
-  
-
+   
+// =========== try to figure out the bug for correct voice selection=============
   const populateVoiceDropdown = (e) => {
-  		speechSynthesis.getVoices().forEach(voice => voices.push(voice.name));		
+  		speechSynthesis.getVoices().forEach(voice => voices.push(voice));		
   		for(let i = 0; i < voices.length; i++){
 			const option = document.createElement('option');
-			option.textContent = voices[i];
+			option.textContent = voices[i].name;
 			option.value = voices[i];
 			voicesDropdown.appendChild(option);
 	}
@@ -20,11 +19,13 @@ voicesDropdown.addEventListener('change',setVoice);
 
 function setVoice () {
 	console.log(this.value);
+	console.log(voices)
 	msg.voice = voices.find(voice => voice.name === this.value);	
 }
 
-  const options = document.querySelectorAll('[type="range"], [name="text"]');
   
+// ================works fine below this line=========
+  const options = document.querySelectorAll('[type="range"], [name="text"]');
   options.forEach(option => option.addEventListener('change', setOption));
   
   function setOption () {
