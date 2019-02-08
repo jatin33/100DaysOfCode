@@ -19,6 +19,7 @@ window.speechSynthesis.onvoiceschanged = populateVoiceDropdown;
 voicesDropdown.addEventListener('change',setVoice);
 
 function setVoice () {
+	console.log(this.value);
 	msg.voice = voices.find(voice => voice.name === this.value);	
 }
 
@@ -33,6 +34,7 @@ function setVoice () {
   function toggleSpeech (beginAgain = true) {
   speechSynthesis.cancel();
   if(beginAgain){
+  	console.log(msg.voice);
   	speechSynthesis.speak(msg);
   }
   }
