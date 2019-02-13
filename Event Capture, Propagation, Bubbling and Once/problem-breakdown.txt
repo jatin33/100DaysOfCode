@@ -1,0 +1,17 @@
+What is Event bubbling ?
+=> When innermost element is clicked and an event is registered on it,
+then that event gets bubbled up all the way to all the parent elements of the selected element upto html.
+By default, this is setting of most browsers.
+
+What is Event propagation ?
+=> event registered on an element , bubbles up/down.
+=> if we use e.stopPropagation() method then event stops propagating up/down.
+
+What is Event capturing ?
+=> if capture flag in addEventListener() is set to true then events run on the way bubble down
+   else capture flag is set to false and event bubbles up on the way up as by default.
+
++ using once flag of addEventListener() method  , then once => true then method unbinds(listener removed) itself after it runs for once
+
+bubble up mean from child to parent
+bubble down mean from parent to child
