@@ -213,6 +213,7 @@ Mostly a reading exercise to understand how **pass-by-value** and **pass-by-refe
 
 - [What is text-shadow property?](https://css-tricks.com/almanac/properties/t/text-shadow/)
 - [Understanding offset of element](https://www.w3schools.com/jsref/event_offsetx.asp)
+- [Understanding HTML Element offsetParent](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetParent)
 - [Dimensions of CSS in detail](https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
 
 # Day 17
