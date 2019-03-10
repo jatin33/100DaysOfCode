@@ -1,0 +1,5 @@
+How to distinguish between mouse click and mouse drag?
+
+How to create a drag effect using existing mouse events?
+
+=> mousedown then mousemove then mouseup

@@ -2,5 +2,13 @@
     different nav link should generate different dropdown
 
 2. When mouseenter event occurs, dropdown corresponding to correct element is drawn
+
+First we need to create a dropdown(div) that will be able to resize itself dynamically 
+based on which nav link it enters and fill  the dropdown(div) with the content corresponding to nav link
+
+Then we need to add appropriate class to the dropdown dynamically.
+
+when mouse leaves, class should be removed dynamically.
+
 (difference between hover and mouseenter?=> hover=> mouseenter+mouseleave, mouseenter when mouse just enters the element)
 (At which boundary(i.e margin,padding,etc) element starts detecting whether mouse has entered?)
