@@ -1,0 +1,7 @@
+1. fetch time value from button and input tag
+
+2. use setInterval() to update the time everytime 
+
+3. decrease time by 1 every second
+
+4. use clearInterval() to stop the timer when time == 0

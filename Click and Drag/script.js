@@ -25,6 +25,5 @@ const slider = document.querySelector('.items');
     e.preventDefault();
     const x = e.pageX - slider.offsetLeft;
     const distanceDragged = (x - startX) * 4;
-    console.log(distanceDragged);
     slider.scrollLeft = scrollLeft - distanceDragged;
   });

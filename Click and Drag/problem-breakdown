@@ -3,3 +3,8 @@ How to distinguish between mouse click and mouse drag?
 How to create a drag effect using existing mouse events?
 
 => mousedown then mousemove then mouseup
+
+How to update elements in a our viewport when we drag the screen?
+
+=> we can calculate how many pixels have been dragged then update the viewport accordingly.
+
