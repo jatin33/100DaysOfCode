@@ -9,10 +9,14 @@ function setTime(e){
       timer(seconds);
 }
 
+
+
 form.addEventListener('submit',function(e){
     e.preventDefault();
-    let seconds = this.minutes * 60;
-    timer(seconds);
+    let seconds = this.minutes.value * 60;
+    if(seconds !== NaN){
+        timer(seconds);
+    }
     this.reset();
 });
 
@@ -22,7 +26,7 @@ function timer(seconds){
     clearInterval(countdown);
     
     countdown = setInterval(()=>{
-        if(seconds === 0){
+        if(seconds < 0){
             clearInterval(countdown);
             return;
         }
@@ -34,5 +38,7 @@ function timer(seconds){
 function displayCurrentTime(seconds){
 let min = Math.floor(seconds / 60);
 let secs = seconds % 60;
-displayTimeLeft.innerHTML = `${min}:${secs < 10 ? '0' : ''}${secs}`;
+if(!isNaN(seconds)){
+   displayTimeLeft.innerHTML = `${min}:${secs < 10 ? '0' : ''}${secs}`;
+}
 }
