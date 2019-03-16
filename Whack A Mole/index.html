@@ -38,6 +38,7 @@
   const moles = document.querySelectorAll('.mole');
   let lastHole;
   let round;
+  let score = 0;
 
   function getRandomTime(min,max){
     return Math.round(Math.random() * (max-min) + min);
@@ -68,12 +69,20 @@
       round = setInterval(()=>{
         makeMolesPeep();
         count++;
-        console.log(count);
-        if(count > 30){
+        if(count >= 30){
           clearInterval(round);
         }
       },1000);
   }
+
+  function trackScore(e){
+    if(!e.isTrusted) return; // executes if user generates a fake click
+    score++;
+    this.classList.remove('up');
+    scoreBoard.textContent = `${score}`;
+  }
+
+  moles.forEach( mole => mole.addEventListener('click',trackScore));
 
 </script>
 </body>
