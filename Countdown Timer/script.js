@@ -17,7 +17,7 @@ form.addEventListener('submit',function(e){
     this.reset();
 });
 
-timerControls.addEventListener('click',setTime);
+timerControls.addEventListener('click',setTime);    
 
 function timer(seconds){
     clearInterval(countdown);

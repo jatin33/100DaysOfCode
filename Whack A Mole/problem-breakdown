@@ -1,0 +1,9 @@
+1. make the mole appear randomly in any of the 6 holes
+    a. For how much time in total a round in game runs(like for 30 secs,1 minute)(using setTimeout)
+    b. At what time interval the mole should appear?(using setInterval)
+    c. How to make the mole appear in a hole?
+    (change image url to empty to make it disappear and make url reference mole image to make it appear)
+    
+2. Keep track of the variable Score for a single round and reset it for each round
+    a. Increase score if the image is clicked while mole goes up and not down.
+
