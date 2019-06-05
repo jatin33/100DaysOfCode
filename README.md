@@ -8,6 +8,7 @@ Here I try to code for 100 days by creating projects in javascript
 - [Book for Javascript Beginner](http://eloquentjavascript.net/index.html)
 - [visit again to learn git well](https://learngitbranching.js.org/ )
 - [modern web dev guide](http://weaintplastic.github.io/web-development-field-guide)
+- [Responsive typography](https://type-scale.com/)
 
 # Day 1
 ## [JS clock](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/JS+and+CSS+Clock/index-START.html)
