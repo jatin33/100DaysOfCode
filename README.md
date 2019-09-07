@@ -12,6 +12,7 @@ Here I try to code for 100 days by creating projects in javascript
 - [Responsive typography](https://type-scale.com/)
 - [How to do google search the right way](http://www.powersearchingwithgoogle.com/)
 - [Webpack tutorial](https://survivejs.com/webpack/developing/getting-started/)
+- [Flex cheatsheet](http://flexbox.malven.co/)
 
 # Day 1
 ## [JS clock](https://s3.ap-south-1.amazonaws.com/type-ahead-searchbar/JS+and+CSS+Clock/index-START.html)
